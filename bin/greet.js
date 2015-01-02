@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var func = require("../index.js")
+var func = require("../coffee2js/index.js")
 var parseArgs = require('minimist')
 
 var args = parseArgs(process.argv.slice(2))
